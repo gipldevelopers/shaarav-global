@@ -15,7 +15,7 @@ A premium Indian spice export company website built with React, Vite, and Tailwi
 
 ### Prerequisites
 
-- Node.js 18+ or Bun
+- Node.js 18+ or Bun xx
 
 ### Installation
 
