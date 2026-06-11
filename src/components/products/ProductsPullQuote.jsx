@@ -12,7 +12,7 @@ import worldMap from "@/assets/world-map.jpg";
 export const ProductsPullQuote = () => (
   <section className="section-screen bg-cocoa text-paper">
     <div className="absolute inset-0 opacity-20">
-      <img src={masalaBox} alt="" className="h-full w-full object-cover" />
+      <img src={heroSpices} alt="" className="h-full w-full object-cover" />
     </div>
     <div className="container-x relative z-10 text-center">
       <Quote className="mx-auto text-primary" size={40} />

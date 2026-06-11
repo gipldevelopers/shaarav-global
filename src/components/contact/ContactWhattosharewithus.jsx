@@ -25,7 +25,7 @@ export const ContactWhattosharewithus = () => (
         <div className="lg:col-span-7 lg:order-2">
           <div className="relative">
             <div className="absolute -right-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
-              <img src={masalaBox} alt="What to share with us." className="relative h-[64vh] w-full object-cover shadow-deep" />
+              <img src={worldMap} alt="What to share with us." className="relative h-[64vh] w-full object-cover shadow-deep" />
           </div>
         </div>
         <div className="lg:col-span-5 lg:order-1">

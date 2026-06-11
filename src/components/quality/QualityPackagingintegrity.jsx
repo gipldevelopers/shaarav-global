@@ -25,7 +25,7 @@ export const QualityPackagingintegrity = () => (
         <div className="lg:col-span-7 order-1 lg:order-1">
           <div className="relative">
             <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
-              <img src={masalaBox} alt="Packaging integrity" className="relative h-[64vh] w-full object-cover shadow-deep" />
+              <img src={mortar} alt="Packaging integrity" className="relative h-[64vh] w-full object-cover shadow-deep" />
           </div>
         </div>
         <div className="lg:col-span-5 order-2 lg:order-2">
