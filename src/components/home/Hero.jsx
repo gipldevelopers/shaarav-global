@@ -53,7 +53,7 @@ export const Hero = () => (
         <h1 className="display-xl mt-5 max-w-4xl text-cocoa">Shaarav Global EXIM</h1>
         <h2 className="mt-4 font-display text-3xl text-cocoa">Pure Flavors. Global Reach</h2>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-cocoa/75 md:text-xl">
-          At Shaarav Global Venture, we believe that quality products are the soul of every kitchen. Founded with a vision to bring India’s rich legacy of products to every corner of the globe, we specialize in the export of premium spices, tea, coffee, and millets. With a strong commitment to purity, freshness, and authenticity, we source directly from trusted farmers and processing units to ensure that only the finest products reach our clients.
+          At Shaarav Global EXIM, we believe that quality products are the soul of every kitchen. Founded with a vision to bring India’s rich legacy of products to every corner of the globe, we specialize in the export of premium spices, tea, coffee, and millets. With a strong commitment to purity, freshness, and authenticity, we source directly from trusted farmers and processing units to ensure that only the finest products reach our clients.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link to="/products" className="inline-flex items-center gap-2 bg-primary px-6 py-3 text-primary-foreground transition-colors hover:bg-cocoa">

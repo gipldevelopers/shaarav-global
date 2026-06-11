@@ -44,7 +44,7 @@ export const PremiumRange = () => (
         <div className="bg-surface p-8 shadow-soft">
           <h3 className="font-display text-2xl text-cocoa mb-4">Whole Spices</h3>
           <p className="leading-relaxed text-cocoa/75">
-            Whole spices are the soul of traditional cooking — unprocessed, unadulterated, and packed with intense aroma and natural oils. At Shaarav Global Venture, we offer a premium range of whole spices like turmeric fingers, whole red chillies, black pepper, cumin seeds, cloves, cardamom, and more, handpicked from trusted farms and packed to preserve freshness.
+            Whole spices are the soul of traditional cooking — unprocessed, unadulterated, and packed with intense aroma and natural oils. At Shaarav Global EXIM, we offer a premium range of whole spices like turmeric fingers, whole red chillies, black pepper, cumin seeds, cloves, cardamom, and more, handpicked from trusted farms and packed to preserve freshness.
           </p>
         </div>
         <div className="bg-surface p-8 shadow-soft">

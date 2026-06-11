@@ -31,7 +31,7 @@ const pageData = {
       ],
     },
     sections: [
-      { tag: "Identity", heading: "A spice venture with a modern shelf in mind.", text: "Shaarav was founded to move Indian spices beyond the bulk-commodity mindset — into a category that respects design, documentation, and dependable quality.", image: spiceMarket },
+      { tag: "Identity", heading: "A spice EXIM with a modern shelf in mind.", text: "Shaarav was founded to move Indian spices beyond the bulk-commodity mindset — into a category that respects design, documentation, and dependable quality.", image: spiceMarket },
       { tag: "Purpose", heading: "Make authentic Indian spice easy to source.", text: "Retailers, importers, and foodservice teams need partners who think in SKUs, lead times, and consistency — not just kilos.", image: masalaBox },
       { tag: "Approach", heading: "Crop knowledge meets supply discipline.", text: "We blend agricultural understanding with quality-system thinking, so each shipment behaves the way the previous one did." },
       { tag: "People", heading: "Procurement, quality, packing, logistics — one team.", text: "A short, accountable supply chain protects flavour, colour, and freshness from field to carton.", image: qualityLab },
