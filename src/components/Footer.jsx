@@ -17,9 +17,9 @@ export const Footer = () => (
           Authentic Indian Products, sourced from trusted farms and exported with uncompromising care to kitchens across the world.
         </p>
         <div className="flex gap-4 mt-6">
-          <a href="#" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="Instagram"><Instagram size={16} /></a>
-          <a href="https://www.linkedin.com/in/shrrutijobanputra001827hcgj/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="LinkedIn"><Linkedin size={16} /></a>
-          <a href="#" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="Facebook"><Facebook size={16} /></a>
+          {/* <a href="#" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="Instagram"><Instagram size={16} /></a> */}
+          <a href="https://www.linkedin.com/company/shaarav-global-ventures/" target="_blank" rel="noopener noreferrer" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="LinkedIn"><Linkedin size={16} /></a>
+          {/* <a href="#" className="p-2 border border-paper/20 hover:border-primary hover:text-primary transition" aria-label="Facebook"><Facebook size={16} /></a> */}
         </div>
       </div>
       <div className="md:col-span-2">
