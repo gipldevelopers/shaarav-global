@@ -1,4 +1,5 @@
 import React from 'react';
+import { Linkedin } from "lucide-react";
 
 export const AboutFounder = () => (
   <section className="section-screen bg-paper py-24">
@@ -17,7 +18,12 @@ export const AboutFounder = () => (
       </div>
       <div className="lg:col-span-7">
         <span className="eyebrow">The Founder</span>
-        <h2 className="display-md mt-6 text-cocoa">Shruti Mehta Jobanputra</h2>
+        <div className="mt-6 flex items-center gap-4">
+          <h2 className="display-md text-cocoa">Shruti Mehta Jobanputra</h2>
+          <a href="https://www.linkedin.com/in/shrrutijobanputra001827hcgj/?skipRedirect=true" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-cocoa transition-colors" aria-label="LinkedIn Profile">
+            <Linkedin size={28} />
+          </a>
+        </div>
         <p className="mt-2 text-lg text-primary font-display tracking-wide">
           Founder | Investment Consultant | Global Business Strategist
         </p>

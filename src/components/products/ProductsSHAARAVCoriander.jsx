@@ -26,7 +26,7 @@ export const ProductsSHAARAVCoriander = () => (
           <div className="relative">
             <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
               <Link to="/products/coriander" className="block overflow-hidden relative shadow-deep group">
-                <img src={productCoriander} alt="SHAARAV Coriander" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={productCoriander} alt="Coriander" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </Link>
           </div>
         </div>
@@ -36,14 +36,14 @@ export const ProductsSHAARAVCoriander = () => (
             <span className="h-px flex-1 bg-border" />
             <span className="text-xs uppercase tracking-[0.3em] text-cocoa/55">Signature</span>
           </div>
-          <h2 className="display-md mt-8 text-cocoa">SHAARAV Coriander</h2>
+          <h2 className="display-md mt-8 text-cocoa">Coriander</h2>
           <p className="mt-6 text-lg leading-relaxed text-cocoa/75">Fresh, citrus-green aroma. Available as seed and powder, with controlled mesh sizes.</p>
             <Link to="/products/coriander" className="mt-8 inline-flex items-center gap-2 text-primary hover:text-cocoa transition-colors font-medium">
               View Product Details <ArrowRight size={18} />
             </Link>
           <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-cocoa/55">
             <span className="h-px w-8 bg-primary" />
-            <span>SHAARAV · Products</span>
+            <span>  SHAARAV · Products</span>
           </div>
         </div>
       </div>

@@ -40,24 +40,28 @@ export const PremiumRange = () => (
         <span className="eyebrow">Our Products</span>
         <h2 className="display-lg mt-5 text-cocoa">Premium Range</h2>
       </div>
-      <div className="grid gap-8 lg:grid-cols-3">
+      <div className="grid gap-8 lg:grid-cols-2">
         <div className="bg-surface p-8 shadow-soft">
-          <h3 className="font-display text-2xl text-cocoa mb-4">Whole Spices</h3>
-          <p className="leading-relaxed text-cocoa/75">
-            Whole spices are the soul of traditional cooking — unprocessed, unadulterated, and packed with intense aroma and natural oils. At Shaarav Global EXIM, we offer a premium range of whole spices like turmeric fingers, whole red chillies, black pepper, cumin seeds, cloves, cardamom, and more, handpicked from trusted farms and packed to preserve freshness.
-          </p>
+          <h3 className="font-display text-2xl text-cocoa mb-4">Whole & Powder Spices</h3>
+          <div className="leading-relaxed text-cocoa/75 space-y-4">
+            <p>
+              Whole spices are the soul of traditional cooking — unprocessed, unadulterated, and packed with intense aroma and natural oils. At Shaarav Global EXIM, we offer a premium range of whole spices like turmeric fingers, whole red chillies, black pepper, cumin seeds, cloves, cardamom, and more, handpicked from trusted farms and packed to preserve freshness.
+            </p>
+            <p>
+              Our powdered spices are finely ground to perfection, capturing the bold aroma, vibrant color, and rich taste of India’s finest spice crops. Whether it’s turmeric, red chili, coriander, or spice blends, each batch is processed under strict hygiene and quality standards to ensure purity and consistency.
+            </p>
+          </div>
         </div>
         <div className="bg-surface p-8 shadow-soft">
-          <h3 className="font-display text-2xl text-cocoa mb-4">Powder Spices</h3>
-          <p className="leading-relaxed text-cocoa/75">
-            Our powdered spices are finely ground to perfection, capturing the bold aroma, vibrant color, and rich taste of India’s finest spice crops. Whether it’s turmeric, red chili, coriander, or spice blends, each batch is processed under strict hygiene and quality standards to ensure purity and consistency.
-          </p>
-        </div>
-        <div className="bg-surface p-8 shadow-soft">
-          <h3 className="font-display text-2xl text-cocoa mb-4">Tea & Coffee</h3>
-          <p className="leading-relaxed text-cocoa/75">
-            Our premium teas are handpicked from the lush plantations of India, offering rich aroma, natural freshness, and calming flavors. Whether you crave the soothing touch of green tea or the bold essence of Assam, every cup brings you closer to nature’s comfort.
-          </p>
+          <h3 className="font-display text-2xl text-cocoa mb-4">Tea, Coffee & Millets</h3>
+          <div className="leading-relaxed text-cocoa/75 space-y-4">
+            <p>
+              Our premium teas are handpicked from the lush plantations of India, offering rich aroma, natural freshness, and calming flavors. Whether you crave the soothing touch of green tea or the bold essence of Assam, every cup brings you closer to nature’s comfort. Our shade-grown Western Ghats coffee beans offer a deep, robust experience.
+            </p>
+            <p>
+              Complementing our beverages, we offer nutrient-dense ancient grains and premium millets like Ragi (finger millet), Jowar (sorghum), and Barley. Sustainably sourced and packed with nutrition, they provide a wholesome, healthy alternative for modern diets while supporting traditional farming communities.
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ export const ProductsSHAARAVTurmericPowder = () => (
           <div className="relative">
             <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
               <Link to="/products/turmeric-powder" className="block overflow-hidden relative shadow-deep group">
-                <img src={productTurmeric} alt="SHAARAV Turmeric Powder" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={productTurmeric} alt="Turmeric Powder" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </Link>
           </div>
         </div>
@@ -36,7 +36,7 @@ export const ProductsSHAARAVTurmericPowder = () => (
             <span className="h-px flex-1 bg-border" />
             <span className="text-xs uppercase tracking-[0.3em] text-cocoa/55">Signature</span>
           </div>
-          <h2 className="display-md mt-8 text-cocoa">SHAARAV Turmeric Powder</h2>
+          <h2 className="display-md mt-8 text-cocoa">Turmeric Powder</h2>
           <p className="mt-6 text-lg leading-relaxed text-cocoa/75">High-curcumin, deep-golden grind. Engineered for both retail visibility and ingredient performance.</p>
             <Link to="/products/turmeric-powder" className="mt-8 inline-flex items-center gap-2 text-primary hover:text-cocoa transition-colors font-medium">
               View Product Details <ArrowRight size={18} />
