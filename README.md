@@ -1,4 +1,4 @@
-# Shaarav Global Ventures
+# Shaarav Global EXIM
 
 A premium Indian spice export company website built with React, Vite, and Tailwind CSS.
 
@@ -128,11 +128,11 @@ The project uses a custom design system with:
 
 ## 📝 License
 
-All rights reserved - Shaarav Global Ventures
+All rights reserved - Shaarav Global EXIM
 
 ## 🤝 Contributing
 
-This is a private project for Shaarav Global Ventures.
+This is a private project for Shaarav Global EXIM.
 
 ---
 
