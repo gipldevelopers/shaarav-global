@@ -26,7 +26,7 @@ export const ProductsSHAARAVRedChilli = () => (
           <div className="relative">
             <div className="absolute -right-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
               <Link to="/products/red-chilli" className="block overflow-hidden relative shadow-deep group">
-                <img src={productChili} alt="SHAARAV Red Chilli" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={productChili} alt="Red Chilli" className="h-[64vh] w-full object-cover transition-transform duration-700 group-hover:scale-105" />
               </Link>
           </div>
         </div>
@@ -36,7 +36,7 @@ export const ProductsSHAARAVRedChilli = () => (
             <span className="h-px flex-1 bg-border" />
             <span className="text-xs uppercase tracking-[0.3em] text-cocoa/55">Signature</span>
           </div>
-          <h2 className="display-md mt-8 text-cocoa">SHAARAV Red Chilli</h2>
+          <h2 className="display-md mt-8 text-cocoa">Red Chilli</h2>
           <p className="mt-6 text-lg leading-relaxed text-cocoa/75">Bright colour value, balanced heat — available across mild, medium, and hot SHU bands.</p>
             <Link to="/products/red-chilli" className="mt-8 inline-flex items-center gap-2 text-primary hover:text-cocoa transition-colors font-medium">
               View Product Details <ArrowRight size={18} />

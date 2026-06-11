@@ -6,6 +6,7 @@ const teamMembers = [
     name: "Anitha Ganesh",
     role: "Procurement Team",
     phone: "+91 92742 06525",
+    linkedin: "https://www.linkedin.com/in/anitha-ganesh-5a8814368/",
   },
   {
     name: "Shreya Mistry",
@@ -32,10 +33,12 @@ export const AboutTeam = () => (
             <p className="text-primary mt-2 uppercase tracking-widest text-xs">{member.role}</p>
             <div className="mt-6 pt-6 border-t border-border/50 w-full flex flex-col items-center gap-3">
                <p className="text-cocoa/75">{member.phone}</p>
-               <a href="#" className="inline-flex items-center gap-2 text-primary hover:text-cocoa transition-colors">
-                  <Linkedin size={18} />
-                  <span className="text-sm">LinkedIn Profile</span>
-               </a>
+               {member.linkedin && (
+                 <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-primary hover:text-cocoa transition-colors">
+                    <Linkedin size={18} />
+                    <span className="text-sm">LinkedIn Profile</span>
+                 </a>
+               )}
             </div>
           </div>
         ))}
