@@ -20,27 +20,27 @@ import macroChili from "@/assets/macro-chili-new.png";
 
 export const QualityLowheatgrinding = () => (
 
-    <section className="section-screen bg-background">
-      <div className="container-x grid items-center gap-12 lg:grid-cols-12">
-        <div className="lg:col-span-7 order-1 lg:order-1">
-          <div className="relative">
-            <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
-              <img src={macroChili} alt="Low-heat grinding" className="relative h-[64vh] w-full object-cover shadow-deep" />
-          </div>
-        </div>
-        <div className="lg:col-span-5 order-2 lg:order-2">
-          <div className="flex items-center gap-4">
-            <span className="font-display text-5xl text-primary">03</span>
-            <span className="h-px flex-1 bg-border" />
-            <span className="text-xs uppercase tracking-[0.3em] text-cocoa/55">03</span>
-          </div>
-          <h2 className="display-md mt-8 text-cocoa">Low-heat grinding</h2>
-          <p className="mt-6 text-lg leading-relaxed text-cocoa/75">Controlled grinding protects volatile aromas and natural colour value.</p>
-          <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-cocoa/55">
-            <span className="h-px w-8 bg-primary" />
-            <span>SHAARAV · Quality</span>
-          </div>
+  <section className="section-screen bg-background">
+    <div className="container-x grid items-center gap-12 lg:grid-cols-12">
+      <div className="lg:col-span-7 order-1 lg:order-1">
+        <div className="relative">
+          <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
+          <img src={mortar} alt="Low-heat grinding" className="relative h-[64vh] w-full object-cover shadow-deep" />
         </div>
       </div>
-    </section>
+      <div className="lg:col-span-5 order-2 lg:order-2">
+        <div className="flex items-center gap-4">
+          <span className="font-display text-5xl text-primary">03</span>
+          <span className="h-px flex-1 bg-border" />
+          <span className="text-xs uppercase tracking-[0.3em] text-cocoa/55">03</span>
+        </div>
+        <h2 className="display-md mt-8 text-cocoa">Low-heat grinding</h2>
+        <p className="mt-6 text-lg leading-relaxed text-cocoa/75">Controlled grinding protects volatile aromas and natural colour value.</p>
+        <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-cocoa/55">
+          <span className="h-px w-8 bg-primary" />
+          <span>SHAARAV · Quality</span>
+        </div>
+      </div>
+    </div>
+  </section>
 );
