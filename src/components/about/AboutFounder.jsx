@@ -7,7 +7,7 @@ export const AboutFounder = () => (
       <div className="lg:col-span-5 relative">
         <div className="aspect-[4/5] w-full overflow-hidden shadow-deep border border-border/50 bg-background/50">
           <img 
-            src="/assets/founder_shruti.png" 
+            src="/shrruti.jfif" 
             alt="Shruti Mehta Jobanputra" 
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
             onError={(e) => {
