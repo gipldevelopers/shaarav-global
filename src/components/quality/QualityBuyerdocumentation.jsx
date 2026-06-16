@@ -13,6 +13,7 @@ import farmerField from "@/assets/farmer-field-new.png";
 import qualityLab from "@/assets/quality-lab-new.png";
 import spiceMarket from "@/assets/market-spices-new.png";
 import exportShip from "@/assets/export-ship-new.png";
+import buyerDocuments from "@/assets/buyer-documents.png";
 import worldMap from "@/assets/world-map.jpg";
 import mortar from "@/assets/mortar-new.png";
 import macroTurmeric from "@/assets/premium-spices.png";
@@ -25,7 +26,7 @@ export const QualityBuyerdocumentation = () => (
         <div className="lg:col-span-7 order-1 lg:order-1">
           <div className="relative">
             <div className="absolute -left-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
-              <img src={exportShip} alt="Buyer documentation" className="relative h-[64vh] w-full object-cover shadow-deep" />
+              <img src={buyerDocuments} alt="Buyer documentation" className="relative h-[64vh] w-full object-cover shadow-deep" />
           </div>
         </div>
         <div className="lg:col-span-5 order-2 lg:order-2">

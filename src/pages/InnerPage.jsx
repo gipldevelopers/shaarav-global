@@ -12,6 +12,10 @@ import farmerField from "@/assets/farmer-field-new.png";
 import qualityLab from "@/assets/quality-lab-new.png";
 import spiceMarket from "@/assets/market-spices-new.png";
 import exportShip from "@/assets/export-ship-new.png";
+import buyerDocuments from "@/assets/buyer-documents.png";
+import shippingSustainability from "@/assets/shipping-sustainability.png";
+import paperSigning from "@/assets/paper-signing.png";
+import inspectionStock from "@/assets/inspection-stock.png";
 import worldMap from "@/assets/world-map.jpg";
 import macroTurmeric from "@/assets/premium-spices.png";
 import macroChili from "@/assets/macro-chili-new.png";
@@ -94,7 +98,7 @@ const pageData = {
       { tag: "04", heading: "Batch laboratory", text: "Moisture, mesh, colour value, volatile oil, and aroma are measured against the SKU specification." },
       { tag: "05", heading: "Packaging integrity", text: "Seal strength, fill weight, label clarity, and carton integrity are verified before sign-off.", image: mortar },
       { tag: "06", heading: "Traceability chain", text: "Every pack carries a batch link back to its sourcing, processing, and packing record." },
-      { tag: "07", heading: "Buyer documentation", text: "COAs, specifications, and country-specific paperwork are prepared alongside the shipment.", image: exportShip },
+      { tag: "07", heading: "Buyer documentation", text: "COAs, specifications, and country-specific paperwork are prepared alongside the shipment.", image: buyerDocuments },
       { tag: "08", heading: "Continuous review", text: "Buyer feedback loops directly into sourcing, processing, and packing improvements." },
     ],
     pull: "Quality earns the next order. Every shipment is built as if the buyer is auditing it personally.",
@@ -118,11 +122,11 @@ const pageData = {
       { tag: "Field", heading: "Closer to the farm.", text: "Direct and semi-direct relationships protect freshness and create visibility into how products are grown and handled.", image: farmerField },
       { tag: "Process", heading: "Cleaner handling, less loss.", text: "Sorting, grading, and pack planning reduce avoidable rejection and waste across the line." },
       { tag: "Material", heading: "Honest packaging.", text: "We help buyers choose materials that protect the product and respect the shelf — without overengineering." },
-      { tag: "Movement", heading: "Efficient shipping.", text: "Carton planning and consolidated shipments reduce unnecessary container space and freight movement.", image: exportShip },
+      { tag: "Movement", heading: "Efficient shipping.", text: "Carton planning and consolidated shipments reduce unnecessary container space and freight movement.", image: shippingSustainability },
       { tag: "Flavour", heading: "Quality preservation.", text: "Freshness control prevents reworks and rejections — the most under-discussed sustainability win." },
-      { tag: "Community", heading: "Long-term partners.", text: "Growth depends on dependable supplier and processor relationships, not opportunistic trades.", image: mortar },
+      { tag: "Community", heading: "Long-term partners.", text: "Growth depends on dependable supplier and processor relationships, not opportunistic trades.", image: paperSigning },
       { tag: "Transparency", heading: "Documented decisions.", text: "Clear batch and shipment information lets buyers make responsible purchasing calls." },
-      { tag: "Future", heading: "Quiet, continuous improvement.", text: "We refine processes as buyer expectations and global standards evolve.", image: worldMap },
+      { tag: "Future", heading: "Quiet, continuous improvement.", text: "We refine processes as buyer expectations and global standards evolve.", image: inspectionStock },
     ],
     pull: "The most sustainable product is the one that arrives perfect, sells through, and never needs to be remade.",
   },
@@ -388,7 +392,7 @@ export const InnerPage = ({ page }) => {
           <div className="lg:col-span-8">
             <span className="eyebrow">Next Step</span>
             <h2 className="display-lg mt-6 text-cocoa">Ready to source premium Indian products?</h2>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-cocoa/70">Share product type, grade, pack format, and destination — the Shaarav trade desk will respond with feasibility, sample plan, and a quote.</p>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-cocoa/70">Share product type, grade, pack format, minimum order quantity, and destination — the Shaarav trade desk will respond with feasibility, sample plan, and a quote.</p>
           </div>
           <div className="lg:col-span-4">
             <Link to="/contact" className="inline-flex w-full items-center justify-center gap-3 bg-primary px-8 py-6 text-lg text-primary-foreground transition-colors hover:bg-cocoa">

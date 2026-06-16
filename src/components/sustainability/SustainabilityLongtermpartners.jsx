@@ -15,6 +15,7 @@ import spiceMarket from "@/assets/market-spices-new.png";
 import exportShip from "@/assets/export-ship-new.png";
 import worldMap from "@/assets/world-map.jpg";
 import mortar from "@/assets/mortar-new.png";
+import paperSigning from "@/assets/paper-signing.png";
 import macroTurmeric from "@/assets/premium-spices.png";
 import macroChili from "@/assets/macro-chili-new.png";
 
@@ -25,7 +26,7 @@ export const SustainabilityLongtermpartners = () => (
         <div className="lg:col-span-7 lg:order-2">
           <div className="relative">
             <div className="absolute -right-6 -top-6 hidden h-32 w-32 border border-primary/40 lg:block" />
-              <img src={mortar} alt="Long-term partners." className="relative h-[64vh] w-full object-cover shadow-deep" />
+              <img src={paperSigning} alt="Long-term partners." className="relative h-[64vh] w-full object-cover shadow-deep" />
           </div>
         </div>
         <div className="lg:col-span-5 lg:order-1">
