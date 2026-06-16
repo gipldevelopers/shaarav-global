@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Phone, Building2, Mail, MessageSquare, ArrowRight, CheckCircle2 } from "lucide-react";
+import { User, Phone, Building2, Mail, MessageSquare, ArrowRight, CheckCircle2, Package } from "lucide-react";
 
 export const ContactForm = () => {
   const [form, setForm] = useState({
@@ -7,6 +7,7 @@ export const ContactForm = () => {
     phone: '',
     company: '',
     email: '',
+    quantity: '',
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
@@ -26,6 +27,7 @@ export const ContactForm = () => {
     { name: 'phone',   label: 'Phone Number',      type: 'tel',   icon: Phone,         placeholder: '+91 00000 00000', col: 'md:col-span-1' },
     { name: 'company', label: 'Company Name',      type: 'text',  icon: Building2,     placeholder: 'Your company / organisation', col: 'md:col-span-1' },
     { name: 'email',   label: 'Email Address',     type: 'email', icon: Mail,          placeholder: 'you@company.com', col: 'md:col-span-1' },
+    { name: 'quantity', label: 'Minimum Order Quantity', type: 'text', icon: Package, placeholder: 'E.g. 500kg, 1 FCL', col: 'md:col-span-2' },
   ];
 
   return (
@@ -76,8 +78,8 @@ export const ContactForm = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* 2-col grid for the 4 short fields */}
                 <div className="grid md:grid-cols-2 gap-6">
-                  {fields.map(({ name, label, type, icon: Icon, placeholder }) => (
-                    <div key={name}>
+                  {fields.map(({ name, label, type, icon: Icon, placeholder, col }) => (
+                    <div key={name} className={col || ''}>
                       <label htmlFor={name} className="block text-xs uppercase tracking-[0.25em] text-cocoa/55 mb-2">
                         {label}
                       </label>
